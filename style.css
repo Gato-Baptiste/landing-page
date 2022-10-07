@@ -161,6 +161,11 @@ h1 {
 @media screen and (max-width: 768px) {
     header nav .right p {
         margin-bottom: 5%;
+        padding: 30px 5% 0 5%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .presentation .product-presentation h1 {
@@ -181,7 +186,11 @@ h1 {
         width: 80%;
     }
 
-    video {
-        width: 100%;
+    .presentation .product-presentation p {
+        font-size: 14px;
     }
+    .presentation .product-presentation2 p {
+        font-size: 14x;
+    }
+
 }
