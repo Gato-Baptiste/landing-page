@@ -157,6 +157,10 @@ h1 {
     margin-left: -5%;
     font-size: 25px;
 }
+.product-presentation2 p {
+
+}
+
 
 @media screen and (max-width: 768px) {
     header nav .right p {
@@ -190,7 +194,16 @@ h1 {
         font-size: 14px;
     }
     .presentation .product-presentation2 p {
-        font-size: 14x;
+        font-size: 20px; 
+        position: relative;
+        top: -100px;
+    }
+    video {
+        width: 375px;
+        height: 400px;
+    }
+    .product-presentation2 button {
+        top: -100px;
     }
 
 }
